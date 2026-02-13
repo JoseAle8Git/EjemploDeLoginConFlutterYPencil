@@ -1,0 +1,253 @@
+{
+  "version": "2.7",
+  "children": [
+    {
+      "type": "frame",
+      "id": "Y13e3",
+      "x": 0,
+      "y": 0,
+      "name": "Mobile Screen",
+      "clip": true,
+      "width": 360,
+      "height": 740,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 16,
+      "children": [
+        {
+          "type": "frame",
+          "id": "8dJ1i",
+          "name": "email_input",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "text",
+              "id": "CcdJa",
+              "name": "Email Label",
+              "fill": "#1F2937",
+              "content": "Email",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "bIfxu",
+              "name": "Email Input Container",
+              "width": "fill_container",
+              "height": 48,
+              "fill": "#FFFFFF",
+              "cornerRadius": 8,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#D1D5DB"
+              },
+              "gap": 8,
+              "padding": [
+                12,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rZatJ",
+                  "name": "Email Placeholder",
+                  "fill": "#9CA3AF",
+                  "content": "Introduce tu email",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ylTIn",
+          "name": "password_input",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "text",
+              "id": "SLfX1",
+              "name": "Password Label",
+              "fill": "#1F2937",
+              "content": "Contraseña",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "laGDv",
+              "name": "Password Input Container",
+              "width": "fill_container",
+              "height": 48,
+              "fill": "#FFFFFF",
+              "cornerRadius": 8,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#D1D5DB"
+              },
+              "gap": 8,
+              "padding": [
+                12,
+                16
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "WpFiz",
+                  "name": "Password Placeholder",
+                  "fill": "#9CA3AF",
+                  "content": "••••••••",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "inFhq",
+                  "name": "Toggle Visibility Icon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "eye",
+                  "iconFontFamily": "lucide",
+                  "fill": "#6B7280"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HnyR2",
+          "name": "login_button",
+          "width": "fill_container",
+          "height": 48,
+          "fill": "#3B82F6",
+          "cornerRadius": 8,
+          "padding": [
+            12,
+            24
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "dJWkx",
+              "name": "Button Text",
+              "fill": "#FFFFFF",
+              "content": "Iniciar Sesión",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "LZxsW",
+          "name": "login_button_disabled",
+          "width": "fill_container",
+          "height": 48,
+          "fill": "#E5E7EB",
+          "cornerRadius": 8,
+          "padding": [
+            12,
+            24
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "WRkmC",
+              "name": "Button Text Disabled",
+              "fill": "#9CA3AF",
+              "content": "Iniciar Sesión",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "TuxQt",
+          "name": "error_message_container",
+          "width": "fill_container",
+          "fill": "#FEE2E2",
+          "cornerRadius": 8,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#EF4444"
+          },
+          "gap": 8,
+          "padding": [
+            12,
+            16
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon_font",
+              "id": "gTZaI",
+              "name": "Error Icon",
+              "width": 20,
+              "height": 20,
+              "iconFontName": "circle-x",
+              "iconFontFamily": "lucide",
+              "fill": "#DC2626"
+            },
+            {
+              "type": "text",
+              "id": "WvVw0",
+              "name": "Error Message",
+              "fill": "#DC2626",
+              "content": "Credenciales inválidas. Inténtalo de nuevo.",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "2nu16",
+          "name": "loading_state_overlay",
+          "width": "fill_container",
+          "height": 48,
+          "fill": "rgba(59, 130, 246, 0.1)",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon_font",
+              "id": "CJCsY",
+              "name": "Loading Spinner",
+              "width": 24,
+              "height": 24,
+              "iconFontName": "loader",
+              "iconFontFamily": "lucide",
+              "fill": "#3B82F6"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
